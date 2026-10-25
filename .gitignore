@@ -1,0 +1,18 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+
+# Exclude raw EEG data and local folders
+data/
+raw_pilot_/
+EEGDash/
+savedstuff/
+*.edf
+*.eeg
+*.vhdr
+*.vmrk
+*.fif
+*.bdf
